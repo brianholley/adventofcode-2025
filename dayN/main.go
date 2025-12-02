@@ -1,7 +1,7 @@
 package main
 
 import (
-	"adventofcode2024/lib"
+	"adventofcode2025/lib"
 	"bufio"
 	"fmt"
 )
