@@ -79,3 +79,8 @@ func ParseStringOfIntsDelimited(str string, delimiter string) []int {
 func ParseStringOfIntsSpaceDelimited(str string) []int {
 	return ParseStringOfIntsDelimited(str, " ")
 }
+
+func Atoi(s string) int {
+	n, _ := strconv.Atoi(s)
+	return n
+}
