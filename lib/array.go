@@ -32,6 +32,14 @@ func ArraySum(arr []int) int {
 	return sum
 }
 
+func ArrayProduct(arr []int) int {
+	sum := 1
+	for _, v := range arr {
+		sum *= v
+	}
+	return sum
+}
+
 func ArrayLast[K comparable](arr []K) K {
 	return arr[len(arr)-1]
 }
